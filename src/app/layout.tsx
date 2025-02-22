@@ -7,6 +7,11 @@ const poppins = Poppins({
   subsets: ["latin"],
 });
 
+export const metadta: Metadata = {
+  title: "FSW Donalds",
+  description: "Bora fimalizar esse projeto incrível",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
